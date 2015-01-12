@@ -1,2 +1,4 @@
-# cyclefitness.github.io
-The OC FBLA Website Design submission
+ochs-fbla-site
+==============
+
+OCHS Website for the FBLA Website Design Competitive Event
