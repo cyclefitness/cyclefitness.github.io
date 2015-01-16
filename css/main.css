@@ -201,6 +201,10 @@ article {
     width: 888px;
 }
 
+#main_content article ul {
+    list-style-type: square;
+}
+
 #main_content .offset_big_left, #main_content .offset_big_right {
     width: 640px;
 }
@@ -249,7 +253,8 @@ article {
 article header, #description header {
     font-family: "Segoe UI Light", sans-serif, arial;
     color: #1BA1E2;
-    font-size: 24px;
+    font-weight: bold;
+    font-size: 30px;
     border-bottom: 2px solid #202020;
     -webkit-wz-box-shadow: none;
     -moz-wz-box-shadow: none;
@@ -424,7 +429,7 @@ footer table a{
 }
 
 #footerCenter table td {
-    padding:20px;
+    padding: 20px;
 }
 
 #footercolumn {
@@ -435,34 +440,38 @@ footer table a{
     background-color: #fff;
 }
 
-.right{
+.right {
     float: right;
 }
-.small_img{
+.small_img {
     width: 100%;
     height: 40%;
     overflow: hidden;
 }
 
-.mobile_only{
+.mobile_only {
     display: none;
 }
 
 @media only screen and (max-width: 600px) {
 
-.small_img{
-    width: 100%;
-    height: 15%;
-    overflow: hidden;
+    .small_img {
+        width: 100%;
+        height: 15%;
+        overflow: hidden;
+    }
+
+    #footerCenter table td {
+        padding: 10px;
     }
 
 }
 @media only screen and (min-width: 600px) {
 
-.small_img{
-    width: 100%;
-    height: 25%;
-    overflow: hidden;
+    .small_img {
+        width: 100%;
+        height: 25%;
+        overflow: hidden;
     }
 
 }
@@ -516,6 +525,7 @@ footer table a{
     #main_content .headtext {
         width: 90%;
         padding: 0 0 0 10%;
+        font-size: 36px;
     }
 
     #main_content article, #navside_content article {
@@ -538,7 +548,7 @@ footer table a{
     #navside_content section .headtext {
         width: 90%;
         padding: 0 0 0 10%;
-        font-size: 24px;
+        font-size: 36px;
     }
 
     #navside_content section {
